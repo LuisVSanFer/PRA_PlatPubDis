@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML5 Video Player</title>
+    <title>HTML5 Video Player - Task 1.4</title>
 </head>
 <body>
 
     <h1>My Custom Video Player</h1>
 
-    <video width="1280" height="720" controls preload="metadata">
+    <video width="1920" height="1080" controls loop muted autoplay poster="thumbnail.jpg" preload="metadata">
+        
+        <source src="my_video_h.265.mp4" type="video/mp4; codecs=hevc">
+        
+        <source src="my_video.webm" type="video/webm">
+        
         <source src="my_video.mp4" type="video/mp4">
         
         Your browser does not support the HTML5 video tag. Please update your browser.
